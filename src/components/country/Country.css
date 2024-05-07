@@ -1,0 +1,8 @@
+.country_div{
+    background-color: skyblue;
+    border-radius: 1em;
+    padding: 2em;
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto 2em;
+}
