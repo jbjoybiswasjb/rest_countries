@@ -1,5 +1,23 @@
-.countries_div{
+.countries_div {
     padding: 0em;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+    .countries_div {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .countries_div {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .countries_div {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
