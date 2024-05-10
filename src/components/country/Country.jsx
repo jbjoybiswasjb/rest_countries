@@ -10,7 +10,7 @@ const Country = ({country}) => {
     }
 
     return (
-        <div className='country_div'>
+        <div className={`country_div ${visited && 'visited_country_background'}`}>
             <h4>Name: {name?.common}</h4>
             <img src={flags?.png} alt={name?.common} />
             <p>Population: {population}</p>

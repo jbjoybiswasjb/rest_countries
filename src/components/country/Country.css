@@ -5,3 +5,7 @@
     border: 1px solid black;
     margin: 0 auto 2em;
 }
+
+.visited_country_background{
+    background-color: rgb(201, 255, 234);
+}
