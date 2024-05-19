@@ -1,4 +1,4 @@
-.country_div{
+.country_div {
     background-color: azure;
     border-radius: 1em;
     padding: 2em;
@@ -6,6 +6,6 @@
     margin: 0 auto 2em;
 }
 
-.visited_country_background{
+.visited_country_background {
     background-color: rgb(201, 255, 234);
 }
