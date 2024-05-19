@@ -15,6 +15,8 @@ const Countries = () => {
 
     const handleVisitedCountries = country => {
         console.log(country);
+        const newVisitedCountries = [...visitedCountries, country];
+        setVisitedCountries(newVisitedCountries);
     }
 
     return (
